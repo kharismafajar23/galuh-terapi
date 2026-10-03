@@ -1,0 +1,13 @@
+export type IconProps = { name: string; className?: string; filled?: boolean }
+
+export function Icon({ name, className = "", filled }: IconProps) {
+  return (
+    <span
+      aria-hidden="true"
+      className={`material-symbols-outlined ${className}`}
+      style={filled ? { fontVariationSettings: "'FILL' 1" } : undefined}
+    >
+      {name}
+    </span>
+  )
+}
