@@ -4,7 +4,7 @@ export const locationInfo: LocationInfo = {
   eyebrow: "Lokasi Utama",
   name: "Galuh Terapi",
   address:
-    "Jalan Jalan RT 02 Kelurahan Sendangsari Kec. Pajangan, Bantul, Yogyakarta",
+    "Jalan Jaten Jalan RT 02 Kelurahan Sendangsari Kec. Pajangan, Bantul, Yogyakarta",
   hours: "Senin - Minggu, 08.00 - 20.00 WIB",
   hoursNote: "● Buka Setiap Hari (Termasuk Hari Libur)",
   facilities: [
